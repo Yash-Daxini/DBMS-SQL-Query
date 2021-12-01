@@ -1,4 +1,4 @@
-/*create table Deposit
+create table Deposit
 (actno int,
  cname varchar(50),
  bname varchar(50),
@@ -60,7 +60,7 @@ insert into Deposit(actno,cname,bname,amount,adate)
 21. select * from customers
 	order by city asc;
 22. select * from Deposit
-	order by amount desc;*/
+	order by amount desc;
 
 1. update Deposit
 	set amount=5000
