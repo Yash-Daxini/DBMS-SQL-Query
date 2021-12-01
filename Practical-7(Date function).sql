@@ -1,0 +1,14 @@
+1. select getdate() as Today_Date;
+2. select getdate()+365;
+3. select convert(varchar,getdate());
+4. select convert(varchar,getdate(),106);
+5. select convert(varchar,getdate(),107);
+6. select datediff(month,'31-dec-08','31-mar-09');
+7. select datediff(year,'25-jan-12','14-sep-10');
+8. select datediff(hour,'25-jan-12 7:00','26-jan-12 10:30');
+9. select day('12-may-16'),month('12-may-16'),year('12-may-16');
+10.select dateadd(year,5,getdate());
+11.select dateadd(month,-2,getdate());
+12.select datename(month,getdate()),datepart(month,getdate());
+13.select eomonth(getdate());
+14.select datediff(year,'30-oct-03',getdate())as 'age in years', datediff(month,'30-oct-03',getdate()) as 'age in month';
